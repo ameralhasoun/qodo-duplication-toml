@@ -8,18 +8,9 @@ pr_commands = [
 
 [pr_reviewer] # /review #
 # enable/disable features
-require_estimate_effort_to_review=false
-enable_review_labels_effort=true
-extra_instructions="""\
-Please review this Pull Request using the following checklist:
+require_estimate_effort_to_review=true
+enable_review_labels_effort=false
 
-- **Error Handling:**  
-  Ensure methods handle possible errors or invalid inputs.  
-  ✅ Success: Inputs are validated or wrapped in try-catch blocks.  
-  ❌ Failure: Methods assume inputs are always valid or can cause exceptions.
 
-- **Code Duplication:**  
-  Detect and report duplicated or repeated logic across classes, methods, or files.  
-  ✅ Success: Shared logic is extracted into reusable methods or services.  
-  ❌ Failure: Similar or identical code blocks appear in multiple places without reuse.
-"""
+[rag_arguments]
+enable_rag=true

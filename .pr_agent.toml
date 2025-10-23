@@ -11,6 +11,6 @@ pr_commands = [
 require_estimate_effort_to_review=true
 enable_review_labels_effort=false
 
-
 [rag_arguments]
 enable_rag=true
+enable_codebase_duplication_section = true

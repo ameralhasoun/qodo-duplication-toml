@@ -1,7 +1,8 @@
-    public class Rekenmachine
+
+public class Rekenmachine
+{
+    public int Optellen(int a, int b)
     {
-        public int Optellen(int a, int b)
-        {
-            return a + b;
-        }
+        return a + b;
     }
+}
